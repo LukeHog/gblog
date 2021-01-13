@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400italic);
+
+h1{
+  font-size: 250%;
+  font-family: 'Lato', sans-serif;
+  color: #3d3d3d;
+  margin-top: 5px;
+}
+
+#motto{
+  color: #383838;
+  font-family: "Lucida Console", Arial;
+}
+
+header{
+  background: #a8d76e;
+  text-align: center;
+}
+
+nav{
+  font-variant: small-caps;
+  font-size: 150 %;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.active){
+  background-color: #ddd;
+}
+
+nav ul li a:active{
+  color: white;
+  background-color: #4CAF50;
+}
+
+article{
+  margin: 15px;
+  padding: 20px;
+  background-color: #4CAF50;
+  display: inline-block;
+}
+
+article a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Arial Black", monospace;
+  font-size: 150%;
+}
+
+#readmore{
+  padding: 0px;
+  background-color: #ddd;
+}
+
+#readmore a{
+  color: #040;
+}
+
+footer{
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #666;
+}
